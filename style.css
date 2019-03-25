@@ -1,0 +1,23 @@
+.center {margin:auto;
+         width: 65%;
+         padding: 15px;
+         font-size: 17px;
+         text-align: center}
+
+.center2 {margin: auto;
+          text-align: left;
+          width: 55%}
+
+.pad {padding-top: 70px}
+.pad2 {padding-top: 100px;
+       padding-bottom: 20px}
+
+.left {width: 50%;
+       float: left}
+
+.right {width: 50%;
+        float: right}
+
+
+/* My table styles, headers and img don't work when they're in this stylesheet, I have to put them in the bootstrap 'navbar-fixed-top' stylesheet to get them to work properly.
+*/

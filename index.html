@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Project 2 - Webpage using CSS and Bootstrap</title>
+      
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+      
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project 2</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="http://lamp.cse.fau.edu/~huntj2012/">Home</a></li>
+            <li><a href="#history">Brief History</a></li>
+            <li><a href="#members">Band Members</a></li>
+            <li><a href="#disc">Discography</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#video">Sample Video</a></li>  
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Useful Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.trivium.org/#" target="_blank">Official Website</a></li>
+                <li><a href="https://www.facebook.com/Trivium/" target="_blank">Official Facebook Page</a></li>
+                <li><a href="http://www.triviumworld.org/"
+                target="_blank">Fan Club Site</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Sample Video from Each Album</li>
+                <li><a href="https://www.youtube.com/watch?v=byBXY5UUarg" target="_blank">When All Light Dies</a></li>
+                <li><a href="https://www.youtube.com/watch?v=XRrzXYpDBYo" target="_blank">Rain</a></li>
+                <li><a href="https://www.youtube.com/watch?v=sHj-obGimQQ" target="_blank">The Rising</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EApnhO2OIrw" target="_blank">Down From The Sky</a></li>
+                <li><a href="https://www.youtube.com/watch?v=E8UctmwgNWc" target="_blank">Caustic Are The Ties That Bind</a></li>
+                <li><a href="https://www.youtube.com/watch?v=C1VzeHFY9pM" target="_blank">Brave This Storm</a></li>
+                <li><a href="https://www.youtube.com/watch?v=PcIlZ3luYHc" target="_blank">Silence In The Snow</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class = "container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <img src="logo.png" align="middle" style="height:140px; width:400px">
+        <p>Small Webpage about my favorite band.</p>
+      </div>
+
+    </div> <!-- /container -->
+    
+    <section id="history" class="center">
+        <hr>
+        <hr>
+            <h2>Brief History</h2>
+            <div class="center2">
+                <p>Trivium was founded in 1999 when original lead singer and bassist Brad Lewter saw Matt Heafy play Metallica's "No Leaf Clover" at his high school talent show, then asked him to try out for his band as lead guitar. The pair went to drummer Travis Smith's house, and impressed with his performance accepted him into Trivium.</p>
+                <p>However, two weeks after Heafy joined, Brad Lewter left the band right before a performance. Heafy took over vocal duty, and with a fill-in bass player from another local band Trivium played some successful shows while searching for a permanent bassist.</p>
+                <p>In late 2002, Trivium entered the studio to record their debut album, Ember to Inferno with Heafy writing the lyrics, as well as recording the vocals and guitar all at 16 years old. After the album was recorded, lead guitarist Corey Beaulieu joined, then in 2004 Paolo Gregoletto joined as the permanent bassist. With this line-up their album Ember to Inferno managed to get the interest of Roadrunner Records who signed them to the label that they're still on.</p>
+            </div>
+    </section>
+      
+    <section id="members" class="center">
+        <hr>
+        <hr>
+            <h2>Band Members</h2>
+            <h3>Current Members</h3>
+            <!--Seperate dividers for the left / right names before pictures-->
+                <div class = "left">
+                    <p class = "pad">Matt Heafy - lead vocals / guitar</p>
+                    <p>(2000 - present)</p>
+                </div>
+                <div class = "right">
+                    <p class = "pad">Corey Beaulieu - lead guitar</p>
+                    <p>(2003 - present)</p>
+                </div>
+        
+            <!-- The two pictures side-by-side with the margin in the css img -->
+                <div>
+                    <a href="./members/matt.JPG" target="_blank">
+                        <img src="./members/matt.JPG" style="height:250px; width:400px">
+                    </a>
+                    <a href="./members/corey.JPG" target="_blank">
+                        <img src="./members/corey.JPG" style="height:250px; width:400px">
+                    </a>
+                </div>
+        
+            <!--Seperate dividers for the left / right names before pictures-->
+                <div class = "left">
+                    <p class = "pad">Paolo Gregoletto - bass</p>
+                    <p>(2004 - present)</p>
+                </div>
+                <div class = "right">
+                    <p class = "pad">Alex Bent - drums</p>
+                    <p>(2017 - present)</p>
+                </div>
+        
+            <!-- The two pictures side-by-side with the margin in the css img -->
+                <div>
+                    <a href="./members/paolo.JPG" target="_blank">
+                        <img src="./members/paolo.JPG" style="height:250px; width:400px">
+                    </a>
+                    <a href="./members/alex.jpg" target="_blank">
+                        <img src="./members/alex.jpg" style="height:250px; width:400px">
+                    </a>
+                </div>
+        
+            <h3 class = "pad2">Former Members</h3>
+                <div>
+                    <p>Brad Lewter - bass / vocals (2000)</p>
+                    <p>Brent Young - guitar / bass (2000 - 2004)</p>
+                    <p>Travis Smith - drums (2000 - 2009)</p>
+                    <p>Nick Augusto - drums (2009 - 2014)</p>
+                    <p>Mat Madiro - drums (2014 - 2015)</p>
+                    <p>Paul Wandtke - Drums (2015 - 2017)</p>
+                </div>
+      </section>
+
+      <section id="disc" class="center">
+          <hr>
+          <hr>
+            <h2>Discography</h2>
+            <table class = "tcenter">
+                <tr>
+                    <th>Year</th>
+                    <th>Album Name</th>
+                    <th>Album Pic</th>
+                </tr>
+                <tr>
+                    <td>2003</td>
+                    <td>Ember to Inferno</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Ember_to_Inferno" target="_blank">
+                            <img src="./covers/eti.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2005</td>
+                    <td>Ascendancy</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Ascendancy_(album)" target="_blank">
+                            <img src="./covers/asc.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2006</td>
+                    <td>The Crusade</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/The_Crusade_(album)" target="_blank">
+                            <img src="./covers/cru.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td>Shogun</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Shogun_(Trivium_album)" target="_blank">
+                            <img src="./covers/shogun.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>In Waves</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/In_Waves" target="_blank">
+                            <img src="./covers/waves.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2013</td>
+                    <td>Vengeance Falls</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Vengeance_Falls" target="_blank">
+                            <img src="./covers/vf.jpg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Silence in the Snow</td>
+                    <td>
+                        <a href="https://en.wikipedia.org/wiki/Silence_in_the_Snow" target="_blank">
+                            <img src="./covers/snow.jpeg" style="height:80px; width:80px">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        <p></p>
+        </section>
+      
+      <section id="images" class="center">
+          <hr>
+          <hr>
+            <h2>Images</h2>
+            <div>
+                <a href="trivium.jpg" target="_blank">
+                    <img src="trivium.jpg" style="height:250px; width:400px">
+                </a>
+                <p>Picture of the band performing live.</p>
+                <br>
+                
+                <a href="trivium2.jpg" target="_blank">
+                    <img src="trivium2.jpg" style="height:250px; width:400px">
+                </a>
+                <p>Picture I personally took at one of their shows.</p>
+            </div>
+        </section>
+      
+      <section id="video" class="center">
+          <hr>
+          <hr>
+            <h2>Sample Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lDVeHgdM3_g" frameborder="0" allowfullscreen>
+            </iframe>
+            <p>Song off their newest album.</p>
+            <p>Also check under 'Useful Links' for more videos.</p>
+      </section>
+      
+      <section class="center">
+          <hr>
+          <hr>
+      </section>
+     
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
